@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 nav{
+    position: fixed;
     width: 100%;
     background-color: grey;
     text-align: center;
@@ -30,6 +31,7 @@ nav a:hover{
     background: url("https://images.unsplash.com/photo-1633114072859-7e8171f1bc95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60") no-repeat center/cover;
     height: 600px;
     border-radius: 8px;
+    margin-top: 40px;
 }
 .left{
     width: 50%;
@@ -40,7 +42,7 @@ nav a:hover{
     background-color: white;
     border-radius: 8px;
     height: 400px;
-    margin-top: 30px;
+    margin-top: 80px;
     margin-left: -200px;
     padding: 0 2%;
 }
